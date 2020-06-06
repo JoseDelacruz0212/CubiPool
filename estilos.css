@@ -609,4 +609,6 @@ background-size:cover;
 ::-webkit-scrollbar {
     display: none;
 }
-    
+@-moz-document url-prefix() {
+    html,body{overflow: hidden !important;}
+}
