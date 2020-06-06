@@ -194,10 +194,33 @@ HEADER HERO
 }
 
 .header__hero__content {
-    margin-top: 65px;
+    margin-top: 1px;
     text-align: center;
 }
+.CTA{
+    text-align: center;
+}
+.Button_CTA {
+    text-decoration: none;
+    text-align:center;
+    border-radius:.1999rem;
+    transition:.3s ease-in-out;
+    display:inline-block;
+    border:0;
+    font-family:inherit;
+    font-weight:600;
+    background-color:#EB5F56;
+    color:#fff;
+    padding:1.411em 2em 1.211em;
+    font-size:1.5rem;
+    min-width:4.277rem
 
+}
+.Button_CTA:hover{
+    background-color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+
+}
 @media only screen and (min-width: 992px) {
     .header__hero__content {
         width: 40%;
@@ -223,8 +246,14 @@ HEADER HERO
 .header__hero__content .paragraph {
     background: rgba(0, 0, 0, 0.4);
     color: white;
-    font-size: 10rem;
-    margin-bottom: 200px;
+    font-size: 14rem;
+    margin-bottom: 40px;
+}
+.header__hero__content .paragraph2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+   
 }
 
 @media only screen and (min-width: 992px) {
@@ -268,7 +297,7 @@ HEADER HERO
 @media only screen and (min-width: 992px) {
     .header__hero__content .container-buttons {
         text-align: left;
-        margin-top: 30px;
+        margin-top: 10px;
         display: flex;
 
     }
@@ -569,3 +598,15 @@ background-size:cover;
     margin: 20px 3px;
     width: 10%;
 }
+.ImgAndroid{
+      text-align: center;
+}
+.ImgAndroid .icon{
+     margin: 24px 6px;
+    width: 30%;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+    
